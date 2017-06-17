@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: shopzoneproxy
+server:
+  port: 9090
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: true
+    fetchRegistry: false
